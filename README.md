@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Fuppuccino CA Portfolio
 
-## Project info
+Personal Front-End Portfolio
 
-**URL**: https://lovable.dev/projects/9fbe814d-3f21-4e04-88ba-c66132f3bb06
+## Project Overview
 
-## How can I edit this code?
+This project is a personal front-end portfolio showcasing the author's key projects and technical skills across various industries and companies. The site features a modern, responsive design with sections for bio, work timeline, and contact information.
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9fbe814d-3f21-4e04-88ba-c66132f3bb06) and start prompting.
+## Local Development
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+1. Clone the repository:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Install dependencies:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```sh
+npm install
+```
+
+3. Start the development server:
+
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Visit http://localhost:5173 to view the site.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+- `src/pages/`      Page components (Home, Work, Contact, etc.)
+- `src/components/` Reusable components (Timeline, Skills, Project Cards, etc.)
+- `public/`         Static assets
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+Recommended platforms: Vercel, Netlify, GitHub Pages, etc.
 
-This project is built with:
+1. Build the project:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```sh
+npm run build
+```
 
-## How can I deploy this project?
+2. Deploy the `dist/` directory to your static hosting provider.
 
-Simply open [Lovable](https://lovable.dev/projects/9fbe814d-3f21-4e04-88ba-c66132f3bb06) and click on Share -> Publish.
+## Contact
 
-## Can I connect a custom domain to my Lovable project?
+- Email: frankieliu97@gmail.com
+- LinkedIn: https://www.linkedin.com/in/frankieliu97
+- GitHub: https://github.com/deadpoolcnn
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For more details or case studies, feel free to contact the author.
